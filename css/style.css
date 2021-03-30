@@ -92,10 +92,10 @@ body {
 }
 @media  screen and (max-width: 360px) {
   .display-2 {
-    font-size: 1.5em  !important;
+    font-size: 1.8em  !important;
 
   }
   h2 {
-    font-size: 0.7em !important;
+    font-size: 0.9em !important;
   }
 }
