@@ -81,3 +81,12 @@ body {
 .carousel-indicators .active{
   background-color: #142925;
 }
+@media  screen and (max-width: 600px) {
+  .display-2 {
+    font-size: 2em  !important;
+
+  }
+  h2 {
+    font-size: 1em !important;
+  }
+}
