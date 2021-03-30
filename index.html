@@ -9,11 +9,12 @@
 		<script src="js/jquery-3.6.0.min.js"></script>
 		<link href="fontawesome/css/all.css" rel="stylesheet">
 		<title>SmartDoers</title>
+		<script src="js/main.js"></script>
 	</head>
 	<body id="minsida">
 		<!-- Nav-->
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top">
-			<div class="container-fluid">
+			<div class="container">
 				<a class="navbar-brand" href="#minsida">SmartDoers</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
 					<span class="navbar-toggler-icon"></span>
@@ -78,7 +79,7 @@
 						<div class="container">
 							<div class="carousel-caption">
 							  <h1 class="display-2">Barnpassning</h1>
-							  <h2>Kärnan i vårt uppdrag är att hitta rätt barnvakt för er familj.</h2>
+							  <h2>Kärnan i vårt uppdrag är att hitta rätt barnvakt för er familj</h2>
 							</div>
 						</div>				
 					</div>
@@ -158,9 +159,9 @@
 				<div class="col-sm-8">
 					<h1 class="display-4 shadowMe">Karriär</h1>
 					<p class="lead">
-						Är du en självständig person som vill ha ett jobb där du själv kan bestämma vilken dag vill du jobba? då
-						har du kommit rätt! Mejla ditt CV, personligt brev där du nämner vilka ämnen och uppdrag
-						är du intresserad att jobba inom.
+						Är du en självständig person som vill ha ett jobb där du själv kan bestämma vilken dag du vill jobba? då
+						har du kommit rätt! Mejla ditt CV med ett personligt brev där du nämner vilka ämnen och uppdrag
+						är du intresserad att jobba inom. Vi ser fram emot att läsa den ansökan.
 						Tänk på att du måste ha ett giltig utdrag ur polisens belastningsregister om du vill jobba
 						inom skolor.
 					</p>
@@ -168,7 +169,7 @@
 			</div>
 		</div>
 		<!-- Kontakta oss-->
-		<div id="Kontaktaoss" class="container-fluid bg- container-padding slideanim">
+		<div id="Kontaktaoss" class="container-fluid bg-grey container-padding slideanim">
 			<div class="row welcome text-center">
 				<div class="col-sm-8">
 					<h1 class="display-4 shadowMe">Kontakta oss</h1>
@@ -209,18 +210,4 @@
 			</div>
 		</div>
 	</footer>	
-	<script>
-		$(document).ready(function(){
-			$(window).scroll(function() {
-    			$(".slideanim").each(function(){
-    			  var pos = $(this).offset().top;
-				  var height = $(window).outerHeight(true);
-    			  var winTop = $(window).scrollTop();
-    			    if (pos < winTop + height + 50) {
-    			      $(this).addClass("slideMe");
-       				}
-   				});
- 			});
-		})
-	</script>
 </html>

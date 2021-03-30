@@ -94,11 +94,11 @@ body {
 }
 @media  screen and (max-width: 360px) {
   .display-2 {
-    font-size: 1.8em  !important;
+    font-size: 1.9em  !important;
 
   }
   h2 {
-    font-size: 0.9em !important;
-    color: palegreen;
+    font-size: 0.95em !important;
+
   }
 }
