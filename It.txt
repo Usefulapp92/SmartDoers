@@ -1,0 +1,6 @@
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<span class="fas fa-laptop-medical fa-4x icon"></span>
+					<h3>It</h3>
+					<p class="lead"><span>&#8226;</span> Skapa en hemsida</p>
+					<p class="lead"><span>&#8226;</span> systemutveckling</p>
+				</div>
